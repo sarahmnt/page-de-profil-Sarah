@@ -1,17 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap');
+
 body {
-	background-color: #F7F9FC;
-	color: #575F7D;
+	background-color: #FDE2E4;
+	color: black;
 	text-align: center;
 	font-size: 17px;
 	font-weight: lighter;
-	font-family: 'Lora', serif;
+	font-family: 'Raleway', sans-serif;
 }
 h1{
-	color: #575F7D;
+	color: #CDDAFD;
 	font-size: 32px; 
 }
 h2{
-	color: #7ECE90;
+	color: #BEE1E6;
 	font-size: 20px;
 }
 a{
@@ -23,27 +26,47 @@ div{
 	padding: 24px;
 	margin: 24px auto;
 	background-color: white;
-	border: solid 1px black;
+	border: none;
 	border-radius: 7px;
 	box-shadow: 5px 4px 2px 2px #c1b3b3;
 }
 
 .button-blue {
-	background-color: blue;
+	background-color: #FAD2E1;
 	color: white;
 	font-weight: bold;
 	padding: 16px;
 	border-radius: 6px;
-	border: 1px blue solid;
+	border: 1px #FAD2E1 solid;
 	margin: 24px auto;
 	display: block;
 	width: 50%;
-	transition: 1s;
-
-element.style {
-    font-size: 50px;
+	text-decoration: none;
+ 	transition: color 0.3s ease;
 }
 
-#list-inline li {
-	display: inline;
+.button-blue:hover {
+  background-color: lightcoral;
+  text-decoration: none;
+}
+
+img {
+	border-radius: 100%;
+	box-shadow: 5px 4px 2px 2px #c1b3b3;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#Logo-Twitter {
+	font-size: 50px;  
+	color: blue;
+  	text-decoration: none;
+ 	transition: color 0.3s ease;
+}
+
+#Logo-Twitter:hover {
+  color: lightblue;
+  text-decoration: none;
 }
