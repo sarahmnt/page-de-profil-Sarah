@@ -9,26 +9,30 @@ body {
 	font-weight: lighter;
 	font-family: 'Raleway', sans-serif;
 }
+
 h1{
 	color: #CDDAFD;
 	font-size: 32px; 
 }
+
 h2{
 	color: #BEE1E6;
 	font-size: 20px;
 }
+
 a{
 	text-decoration: none;
 	color: black;
 }
-div{
+
+.container {
 	width :75%;
 	padding: 24px;
 	margin: 24px auto;
 	background-color: white;
 	border: none;
 	border-radius: 7px;
-	box-shadow: 5px 4px 2px 2px #c1b3b3;
+	box-shadow: 5px 4px 2px 2px #BEE1E6;
 }
 
 .button-blue {
@@ -46,27 +50,74 @@ div{
 }
 
 .button-blue:hover {
-  background-color: lightcoral;
+  background-color: lightpink;
   text-decoration: none;
 }
 
 img {
 	border-radius: 100%;
-	box-shadow: 5px 4px 2px 2px #c1b3b3;
+	box-shadow: 5px 4px 2px 2px #FDE2E4;
 }
 
 ul {
 	list-style-type: none;
+	padding: 0px;
 }
 
-#Logo-Twitter {
-	font-size: 50px;  
-	color: blue;
-  	text-decoration: none;
- 	transition: color 0.3s ease;
+.list-inline {
+	font-size: 50px;
+	text-decoration: none;
+	transition: color 0.3s ease
 }
 
-#Logo-Twitter:hover {
-  color: lightblue;
+#Logo-Twitter { 
+	color: #E2EAFC;
+}
+
+#Logo-Twitter:hover{
+	color: #BEE1E6;
   text-decoration: none;
+}
+
+#Logo-Linkedin {
+	color : #C1D3FE;
+}
+#Logo-Linkedin:hover{
+	color: #BEE1E6;
+  text-decoration: none;
+}
+#Logo-Insta { 
+	color: #ABC4FF;
+}
+#Logo-Insta:hover{
+	color: #BEE1E6;
+  text-decoration: none;
+}
+
+.MotsImportants {
+	color: #CDDAFD;
+}
+
+#Reseaux {
+		height: 300px; 
+		width: 300px; 
+		background-color: white;
+		border: none;
+		border-radius: 50%; 
+}
+
+#Langues {
+	display: flex;
+	border: none;
+	box-shadow: none;
+}
+
+#Langues .item {
+	margin: 0 16px;
+	background-color: white;
+	border: none;
+	border-radius: 7px;
+	box-shadow: 1px 1px 7px 5px #FDE2E4;
+	width :75%;
+	padding: 24px;
 }
